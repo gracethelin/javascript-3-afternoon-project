@@ -6,6 +6,8 @@
   You can refresh the page at any time to re-run all the tests.
 */
 
+
+// Spread operator: also makes copies of an object.  Const newCarObj = {…mycar}
 ////////// PROBLEM 1 //////////
 
 /* Use the spread operator to create a copy of the product object below.  Name the copy "productCopy" */
@@ -18,7 +20,7 @@ let product = {
 }
 
 // code here
-
+const productCopy = {...product}
 
 
 
@@ -30,7 +32,7 @@ let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
 
-
+const colorsCopy =  {...colors}
 
 
 ////////// PROBLEM 3 //////////
